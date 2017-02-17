@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+	<title>ZOOTOPIE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script src="js/script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="zootopie.png" style="width: 50%"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar" style="width: 100%">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#ancre1" >Les personnages</a></li>
+					<li><a href="#ancre2" >Capturez-les</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- First Container , video selfie-->
+	<div class="container-fluid bg-1 text-center">
+		<div class="video-wrapper">
+			<video src="selfie.mp4" autoplay loop style="width: 100%"></video>
+
+		</div>
+	</div>
+
+	<!-- Second Container , google map-->
+	<div class="container bg-2 text-center">
+		<!-- <div class="container-fluid"> -->
+		<div class= "row">
+			<h1 id="ancre1">Les Personnages</h1>
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="img/judy_hopps.jpg" alt="Judy Hopps">
+					<div class="caption">
+						<ul class="list-group"><br>
+							<li class="list-group-item"><h3>Judy Hopps</h3></li>
+							<li class="list-group-item"> &bull; Lapin</li>
+							<li class="list-group-item"> &bull; 10 ans</li>
+							<li class="list-group-item"> &bull; Policier</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="img/gazelle.jpg" alt="Gazelle">
+					<div class="caption">
+						<ul class="list-group">
+							<li class="list-group-item"><h3>Gazelle</h3></li>
+							<li class="list-group-item">&bull;	Gazelle</li>
+							<li class="list-group-item">&bull;	30 ans</li>
+							<li class="list-group-item">&bull;	Chanteuse</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="img/benjamin-clawhauser.jpg" alt="Benjamin Clawhauser">
+					<div class="caption">
+						<ul class="list-group">
+							<li class="list-group-item"><h3>Benjamin Clawhauser</h3></li>
+							<li class="list-group-item">&bull;	Guépard</li>
+							<li class="list-group-item">&bull;	12 ans</li>
+							<li class="list-group-item">&bull;	Agent accueil</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="img/chef-bogo.jpg" alt="Chef Bogo">
+					<div class="caption">
+						<ul class="list-group">
+							<li class="list-group-item"><h3>Chef Bogo</h3></li>
+							<li class="list-group-item">&bull;	Buffle</li>
+							<li class="list-group-item">&bull; 40 ans</li>
+							<li class="list-group-item">&bull; Sergent de Police</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class= "row">
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail" id="ancre4">
+					<img src="img/doug.jpg" alt="Doug Ramses">
+					<div class="caption">
+						<ul class="list-group"><br><br>
+							<li class="list-group-item"><h3>Doug Ramses</h3></li>
+							<li class="list-group-item"> &bull; Bélier</li>
+							<li class="list-group-item"> &bull; 30 ans</li>
+							<li class="list-group-item"> &bull; Chimiste</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="img/emmett-otterton.jpg" alt="Emmett Otterton">
+					<div class="caption">
+						<ul class="list-group"><br><br>
+							<li class="list-group-item"><h3>Emmett Otterton</h3></li>
+							<li class="list-group-item">&bull; Loutre</li>
+							<li class="list-group-item">&bull;	45 ans</li>
+							<li class="list-group-item">&bull;	Victime</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3" >
+				<div class="thumbnail" id="ancre1">
+					<img src="img/bellwether.jpg" alt="Bellwether">
+					<div class="caption">
+						<ul class="list-group">
+							<li class="list-group-item"><h3>Bellwether</h3></li>
+							<li class="list-group-item">&bull;	Mouton</li>
+							<li class="list-group-item">&bull;	33 ans</li>
+							<li class="list-group-item">&bull;	Assistante du maire</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="img/madame-otterton.jpg" alt="Madame Otterton">
+					<div class="caption">
+						<ul class="list-group"><br>
+							<li class="list-group-item"><h3>Madame Otterton</h3></li>
+							<li class="list-group-item">&bull;	Loutre</li>
+							<li class="list-group-item">&bull; 35 ans</li>
+							<li class="list-group-item">&bull; Femme au foyer</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class= "row">
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail" id="ancre3">
+						<img src="img/duke-weaselton.jpg" alt="Duke Weaselton">
+						<div class="caption">
+							<ul class="list-group">
+								<li class="list-group-item"><h3>Duke Weaselton</h3></li>
+								<li class="list-group-item"> &bull; Belette</li>
+								<li class="list-group-item"> &bull; 30 ans</li>
+								<li class="list-group-item"> &bull; Escroc</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="img/fru-fru.jpg" alt="Fru-Fru">
+						<div class="caption">
+							<ul class="list-group"><br><br>
+								<li class="list-group-item"><h3>Fru Fru</h3></li>
+								<li class="list-group-item">&bull;	Souris</li>
+								<li class="list-group-item">&bull;	20 ans</li>
+								<li class="list-group-item">&bull;	Fille de Mister Big</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="img/nick_wilde.jpg" alt="Nick Wilde">
+						<div class="caption">
+							<ul class="list-group">
+								<li class="list-group-item"><h3>Nick Wilde</h3></li>
+								<li class="list-group-item">&bull;	Renard</li>
+								<li class="list-group-item">&bull;	25 ans</li>
+								<li class="list-group-item">&bull;	Escroc</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="img/maire-lionheart.jpg" alt="Maire Lionheart">
+						<div class="caption">
+							<ul class="list-group"><br>
+								<li class="list-group-item"><h3>Maire Lionheart</h3></li>
+								<li class="list-group-item">&bull;	Lion</li>
+								<li class="list-group-item">&bull; 50 ans</li>
+								<li class="list-group-item">&bull; Maire de Zootopie</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class= "row">
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="img/flash.jpg" alt="Flash">
+						<div class="caption">
+							<ul class="list-group">
+								<li class="list-group-item"><h3>Flash</h3></li>
+								<li class="list-group-item">&bull; Paresseux</li>
+								<li class="list-group-item">&bull; 30 ans</li>
+								<li class="list-group-item">&bull; Agent Accueil</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail" id="ancre2">
+						<img src="img/mister-big.jpg" alt="Mister Big">
+						<div class="caption">
+							<ul class="list-group"><br>
+								<li class="list-group-item"><h3>Mister Big</h3></li>
+								<li class="list-group-item">&bull;	Souris</li>
+								<li class="list-group-item">&bull;	50 ans</li>
+								<li class="list-group-item">&bull;	Parrain Mafia</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="img/yax.jpg" alt="Yax">
+						<div class="caption">
+							<ul class="list-group"><br>
+								<li class="list-group-item"><h3>Yax</h3></li>
+								<li class="list-group-item">&bull;	Yack</li>
+								<li class="list-group-item">&bull;	35 ans</li>
+								<li class="list-group-item">&bull;	Réceptionniste Naturiste</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="img/kozlov.jpg" alt="Kozlov">
+						<div class="caption">
+							<ul class="list-group">
+								<li class="list-group-item"><h3>Kozlov</h3></li>
+								<li class="list-group-item">&bull;	Ours polaire
+								</li>
+								<li class="list-group-item">&bull; 35 ans</li>
+								<li class="list-group-item">&bull; Garde du corps</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div><!--/row-->
+	</div>
+
+	<div class="video-wrapper text-center">
+		<video src="souris.mp4" autoplay loop style="width: 100%""></video>
+
+	</div>
+
+	<!-- Third Container (Grid) -->
+	<div class="container-fluid bg-3 text-center">
+	<h1 id="ancre2">Aidez Jody à attraper les malfrats</h1>
+		<div class="col-xs-8">
+			<div id="map_canvas"></div></div>
+			<div class="col-xs-4">
+				<img id="1" src=""/>
+				<img id="2" src=""/>
+				<img id="3" src=""/>
+				<img id="4" src=""/>
+				<img src="img/post-it.png" style="width: 100%">
+				<h3>Cliquer sur le vilain pour le capturer.</h3>				
+			</div>
+		</div>
+	</div>
+	  <div class="video-wrapper text-center">
+     <video src="buffle.mp4" autoplay loop style="width: 100%""></video>
+
+   </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+	<p>ZOOTOPIE</p>
+</footer>
+
+<script type="text/javascript" language="javascript">
+	window.onload = function()
+	{
+		initialize();
+	}
+</script>
+
+
+</body>
+</html>
